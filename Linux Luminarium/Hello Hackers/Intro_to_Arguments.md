@@ -46,9 +46,6 @@ pwn.college{k37zHiiBvglTBqXGuuZ8b65uGgC.dhjNyUDLygjN0czW}
 ```
 hacker@hello~intro-to-arguments:~$ echo lets solve all these challenges!
 lets solve all these challenges!
-hacker@hello~intro-to-arguments:~$ echo lets solve all these challenges!#
-echo lets solve all these challengesecho lets solve all these challenges
-lets solve all these challengesecho lets solve all these challenges
 hacker@hello~intro-to-arguments:~$ echo lets solve all these challenges@
 lets solve all these challenges@
 hacker@hello~intro-to-arguments:~$ echo lets solve all these challenges#
