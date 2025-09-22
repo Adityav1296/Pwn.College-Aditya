@@ -4,7 +4,8 @@
 In this challenge, we invoke our first program\
 When you type a command and hit enter, the command will be invoked, as so:
 
-```hacker@dojo:~$ whoami
+```
+hacker@dojo:~$ whoami
 hacker
 hacker@dojo:~$
 ```
@@ -22,7 +23,8 @@ hacker@hello~intro-to-commands:~$ whoami
 hacker
 hacker@hello~intro-to-commands:~$ hello
 Success! Here is your flag:
-pwn.college{wXHpr2GmZG9CvbuDVZRDWp0fCAZ.ddjNyUDLygjN0czW}```
+pwn.college{wXHpr2GmZG9CvbuDVZRDWp0fCAZ.ddjNyUDLygjN0czW}
+```
 
 ### New Learning
-Learnt how the commands can be executed through the command line.
+Learn how the commands can be executed through the command line.
