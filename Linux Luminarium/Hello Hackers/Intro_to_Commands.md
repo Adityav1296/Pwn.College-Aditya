@@ -12,6 +12,9 @@ hacker@dojo:~$
 
 When the command terminates, the shell once again displays the prompt, ready for the next command.
 
+### Objective
+In this level, invoke the hello command to get the flag!
+
 ### Solve
 **Flag:** `pwn.college{wXHpr2GmZG9CvbuDVZRDWp0fCAZ.ddjNyUDLygjN0czW}`
 
@@ -27,4 +30,4 @@ pwn.college{wXHpr2GmZG9CvbuDVZRDWp0fCAZ.ddjNyUDLygjN0czW}
 ```
 
 ### New Learning
-Learn how the commands can be executed through the command line.
+Learnt how the commands can be executed through the command line.
