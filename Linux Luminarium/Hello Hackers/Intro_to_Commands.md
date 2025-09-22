@@ -1,7 +1,7 @@
 # Hello Hackers
 
 ## Intro to Commands
-In this challenge, we invoke our first program\
+In this challenge, we invoke our first program.\
 When you type a command and hit enter, the command will be invoked, as so:
 
 ```
@@ -18,7 +18,7 @@ In this level, invoke the hello command to get the flag!
 ### Solve
 **Flag:** `pwn.college{wXHpr2GmZG9CvbuDVZRDWp0fCAZ.ddjNyUDLygjN0czW}`
 
--> In this challenge, we simply needed to execute the hello program to get the required flag.\ 
+-> In this challenge, we simply needed to execute the hello program to get the required flag.   
 -> I also executed the 'whoami' command given in the challenge description to check the user.
 
 ```bash
