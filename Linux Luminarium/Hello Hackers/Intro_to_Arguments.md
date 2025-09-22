@@ -24,7 +24,7 @@ In this challenge, to get the flag, you must run the hello command with a single
 ### Solve
 **Flag:** `pwn.college{k37zHiiBvglTBqXGuuZ8b65uGgC.dhjNyUDLygjN0czW}`
 
--> In this challenge, I executed the hello command as required with the argument as hackers to get the flag. 
+-> In this challenge, I executed the hello command as required with the argument as hackers to get the flag.\
 -> I also executed the 'echo' command given in the challenge description.
 
 ```bash
