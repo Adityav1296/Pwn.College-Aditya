@@ -6,7 +6,8 @@ When you type a command and hit enter, the command will be invoked, as so:
 
 ```hacker@dojo:~$ whoami
 hacker
-hacker@dojo:~$```
+hacker@dojo:~$
+```
 
 When the command terminates, the shell once again displays the prompt, ready for the next command.
 
