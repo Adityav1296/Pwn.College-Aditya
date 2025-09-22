@@ -36,7 +36,7 @@ Again, you must specify your path as an argument to /challenge/run
 **Flag:** `pwn.college{MilrmyDBSIEimk5Qges34x51O-o.dNzM4QDLygjN0czW}`
 
 -> In this challenge, since we didn't need to change any directory, I straight away executed the command as required by the challenge : */challenge/run ~/a*  
--> Since the constraints required an argument with 3 characters and an absolute path, the only option for fullfilling the absolute path condition was to use '~' which expands to /home/hacker.  
+-> Since the constraints required an argument with 3 characters and an absolute path, the only option for fullfilling the absolute path condition was to use *'~'* which expands to /home/hacker.  
 -> Since a path was needed as argument, after '~' I added '/a' where a is the name of any random file in the home directory.
 
 ```bash
