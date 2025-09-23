@@ -39,7 +39,7 @@ This challenge the flag is hidden in a random directory on the filesystem. It's 
 
 -> In this challenge, I used *ln -s* command to create a symbolic link from the flag file to the not-the-flag file since the */challenge/catflag* command will only read the not-the-flag file.    
 
-```
+```bash
 hacker@commands~linking-files:~$ ls
 Desktop  flag  home-backup.tar.gz
 hacker@commands~linking-files:~$ ln -s flag ~/not-the-flag
