@@ -55,7 +55,7 @@ hacker@commands~comparing-files:~$ diff /challenge/decoys_only.txt /challenge/de
 ```
 
 ### New Learning
-1. *diff* command compares 2 files line by line, prints only their differences and tells is what we need to change in file 1 to make it identical to file 2.  
+1. *diff* command compares 2 files line by line, prints only their differences and tells us what we need to change in file 1 to make it identical to file 2.  
 2. *diff* command has the following 3 types of outputs :  
    1. N1aN2 : After line N1 in file 1, add line N2 of file 2.  
    2. N4dN3 : In file 1, delete line N4 to make it same as file 2.  
