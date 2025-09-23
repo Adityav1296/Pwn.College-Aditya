@@ -27,7 +27,7 @@ In this challenge, I have hidden the flag! Here, you will use ls and cat to foll
 10. Using `cd /usr/lib/python3/dist-packages/sage/modules/__pycache__` I went to the new directory and used *ls -a* to list out the files in it. There I found the .TEASER file and on using `cat .TEASER`, the next clue was a new directory with a hidden clue file in it.  
 11. This time, I directly listed the contents of the new directory using `ls -a /opt/linux/linux-5.4/include/config/pcmcia` and found the .SECRET file. Then I used `cat .SECRET` and finally obtained the required flag.
 
-```bash
+```
 hacker@commands~an-epic-filesystem-quest:~$ cd /
 hacker@commands~an-epic-filesystem-quest:/$ ls
 NOTE  challenge  flag  lib32   media  opt   run   sys  var
@@ -43,6 +43,7 @@ hacker@commands~an-epic-filesystem-quest:/$ ls -a /usr/lib/python3/dist-packages
 hacker@commands~an-epic-filesystem-quest:/$ cat /usr/lib/python3/dist-packages/sympy/printing/pretty/tests/__pycache__/SPOILER-TRAPPED
 Tubular find!
 The next clue is in: /usr/lib/python3/dist-packages/networkx/algorithms/bipartite
+
 hacker@commands~an-epic-filesystem-quest:/$ ls -a /usr/lib/python3/dist-packages/networkx/algorithms/bipartite
 .     __init__.py  centrality.py  edgelist.py    matrix.py      spectral.py
 ..    __pycache__  cluster.py     generators.py  projection.py  tests
