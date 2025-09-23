@@ -53,7 +53,7 @@ This challenge the flag is hidden in a random directory on the filesystem. It's 
 -> In this challenge, I used `find / -name flag` command to search the entire filesystem for the flag file.  
 -> A lot of the files came up with permission denied. As for the rest, I executed them one by one. Most of them were directories with flag.py python file in them. Then on running `/usr/share/racket/collects/s-exp/lang/compiled/flag` , I found the flag required for the challenge.  
 
-```
+```bash
 hacker@commands~finding-files:~$ find / -name flag
 find: ‘/root’: Permission denied
 find: ‘/etc/ssl/private’: Permission denied
