@@ -61,4 +61,7 @@ hacker@commands~comparing-files:~$ diff /challenge/decoys_only.txt /challenge/de
    2. N4dN3 : In file 1, delete line N4 to make it same as file 2.  
    3. N6cN6 : Line N6 in file 1 is different from line N6 in file 2. Therefore line N6 in file 1 must be changed to line N6 of file 2.  
 3. It displays all the differences between the two files even when there are multiple of them. 
-4. It doesn't make any change to any of the files itself. 
+4. It doesn't make any change to any of the files itself.
+
+### References
+1. Chatgpt for additional information on *diff* command.
