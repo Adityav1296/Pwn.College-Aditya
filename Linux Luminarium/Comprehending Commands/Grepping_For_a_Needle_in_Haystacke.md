@@ -36,7 +36,8 @@ pwn.college{8VxLjaUtYXxbwLxzM9i3RCzv5n7.ddTM4QDLygjN0czW}
 3. Additional grep commands : 
    1. `grep -n "pwn.college" file.txt` → show line numbers too.  
    2. `grep -c "pwn.college" file.txt` → show count of matching lines.  
-   3. `grep -o "pwn.college" file.txt` → print only the matching words, one per occurrence.  
+   3. `grep -o "pwn.college" file.txt` → print only the matching words, one per occurrence.
+
 
    ```
    hacker@commands~grepping-for-a-needle-in-a-haystack:~$ grep -n "pwn.college" /challenge/data.txt
