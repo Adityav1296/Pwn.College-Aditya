@@ -25,7 +25,7 @@ challenge/.
 You'll need to run /challenge/run using a relative path using '.' while having a current working directory of /. 
 
 ### Solve
-**Flag:** `pwn.college{o9Eby5PtSXj0aAOh07y3Qt4MuDd.dlDN1QDLygjN0czW}`
+**Flag:** `pwn.college{AXdMDHxYj7gZodGEdUiPJInfWK_.dBTN1QDLygjN0czW}`
 
 -> In this challenge, since it is given that the current working directory should be root i.e /, therefore the first thing I did was to change my directory to root using the *cd* command.  
 -> Then I ran the *./challenge/run* command to get the flag.  
