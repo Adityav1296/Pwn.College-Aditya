@@ -1,7 +1,7 @@
 # File Globbing
 
-## Matching with []
-The square brackets are, essentially, a limited form of ?, in that instead of matching any character, [] is a wildcard for some subset of potential characters, specified within the brackets. For example, [pwn] will match the character p, w, or n. For example:
+## Matching with [ ]
+The square brackets are, essentially, a limited form of ?, in that instead of matching any character, [ ] is a wildcard for some subset of potential characters, specified within the brackets. For example, [pwn] will match the character p, w, or n. For example:
 
 ```bash
 hacker@dojo:~$ touch file_a
@@ -33,6 +33,6 @@ pwn.college{U6-gYzQfSC0S_ny-J3LgghbBKs9.dNjM4QDLygjN0czW}
 ```
 
 ### New Learnings
-1. Similar to ? symbol being used for file globbing, the [] also act as wildcard for a single position only.  
-2. Just like with ? symbol, it is necessary to place the [] at the correct position in the file or directory name when file globbing.  
-3. [] make the search area even less as compared to ? since we can specify the particular characters to look for or not look for when file globbing.
+1. Similar to ? symbol being used for file globbing, the [ ] also act as wildcard for a single position only.  
+2. Just like with ? symbol, it is necessary to place the [ ] at the correct position in the file or directory name when file globbing.  
+3. [ ] make the search area even less as compared to ? since we can specify the particular characters to look for or not look for when file globbing.
