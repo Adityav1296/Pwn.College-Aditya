@@ -13,7 +13,7 @@ We put a few happy, but diversely-named files in /challenge/files. Go cd there a
 -> Then initially, I found that 'in' are two common characters in the files that we need to search. Therefore, I executed the */challenge/run* command with `*[in]*` as an argument. But along with the required files, a number of other files also got listed as they also contained 'i' and 'n' in their names.  
 -> Then I again tried by using `*[i?]*` as an argument to see if it works but this also displayed extra files.  
 -> Then I stopped and observed the names of the files that I had listed earlier. From there I found that only the required files were beginning with the letters 'p','e' and 'c'. That's when it all clicked together.  
--> Therefore I put the 3 letters in [] like [pec] to look only for files that start with these letters and added '*' at the end so that it expands to match their entire names.
+-> Therefore I put the 3 letters in [ ] like [pec] to look only for files that start with these letters and added '*' at the end so that it expands to match their entire names.
 
 ```bash
 hacker@globbing~mixing-globs:~$ cd /challenge/files
