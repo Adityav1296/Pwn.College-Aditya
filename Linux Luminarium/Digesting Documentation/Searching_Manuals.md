@@ -15,9 +15,6 @@ Find the option that will give you the flag by reading the challenge man page.
 
 ```bash
 hacker@man~searching-manuals:~$ man challenge
-hacker@man~searching-manuals:~$ /challenge/challenge --version
-Initializing...
-I'm exactly the version I need to be!
 hacker@man~searching-manuals:~$ /challenge/challenge --fortune
 Initializing...
 A committee takes root and grows, it flowers, wilts and dies, scattering the
