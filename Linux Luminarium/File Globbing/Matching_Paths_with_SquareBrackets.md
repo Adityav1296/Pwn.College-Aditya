@@ -1,6 +1,6 @@
 # File Globbing
 
-## Matching Paths with []
+## Matching Paths with [ ]
 Globbing happens on a path basis, so you can expand entire paths with your globbed arguments. For example:
 
 ```bash
@@ -20,7 +20,7 @@ We've placed a bunch of files in /challenge/files. Starting from your home direc
 **Flag:** `pwn.college{gpnF7WJDLCZk0uVJj6eFzbxoSzl.dRjM4QDLygjN0czW}`
 
 -> In this challenge, as is mentioned, there are a bunch of files in the */challenge/files* directory. So the first thing I did was to change my directory to */challenge/files* and list all the files present there.  
--> Then I came back to the home directory and ran the */challenge/run* command with the absolute path to the target files as an argument. Since the only files required were a,b,s and h, I made use of the [] to glob them together.
+-> Then I came back to the home directory and ran the */challenge/run* command with the absolute path to the target files as an argument. Since the only files required were a,b,s and h, I made use of the [ ] to glob them together.
 
 ```bash
 hacker@globbing~matching-paths-with-:~$ cd /challenge
