@@ -18,7 +18,7 @@ bash: run: command not found
 In this challenge, we'll learn how to explicitly use relative paths to launch run in this scenario. The way to do this is to tell Linux that you explicitly want to execute a program in the current directory, using . like in the previous levels. This challenge will need you to run it from the /challenge directory.
 
 ### Solve
-**Flag:** `pwn.college{o9Eby5PtSXj0aAOh07y3Qt4MuDd.dlDN1QDLygjN0czW}`
+**Flag:** `pwn.college{Eoow8R418nc9XiyBy6NFM7ZURK_.dFTN1QDLygjN0czW}`
 
 -> In this challenge, since it is given that the current working directory should be /challenge, therefore the first thing I did was to change my directory to /challenge using the *cd* command.  
 -> Then I ran the *./run* command to get the flag.
