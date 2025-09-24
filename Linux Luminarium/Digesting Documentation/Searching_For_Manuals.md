@@ -19,8 +19,6 @@ sxcplncyad (1)       - print the flag!
 hacker@man~searching-for-manuals:~$ man -f /challenge/challenge
 sxcplncyad (1)       - print the flag!
 hacker@man~searching-for-manuals:~$ man sxcplncyad
-hacker@man~searching-for-manuals:~$ /challenge/challenge --version
-I'm exactly the version I need to be!
 hacker@man~searching-for-manuals:~$ /challenge/challenge --fortune 
 hacker@man~searching-for-manuals:~$ /challenge/challenge --sxcpln 915
 Correct usage! Your flag: pwn.college{EsMxcMG9H1pMTlD-5VS4On2cCya.dZTM4QDLygjN0czW}
@@ -29,5 +27,6 @@ Correct usage! Your flag: pwn.college{EsMxcMG9H1pMTlD-5VS4On2cCya.dZTM4QDLygjN0c
 ### New Learning
 1. Each page argument given to man is normally the name of a program, utility or function. The manual page associated with each of these arguments is then found and displayed. A section, if provided, will direct man to  look only in that section of the manual. The default action is to search in all of the available sections following a pre-defined order (see DEFAULTS), and to show only the first page found, even if page exists in several sections.  
 2. man -k keyword: Search the short  descriptions  and manual page names for the keyword as regular expression.  Print out any matches. Equivalent to apropos printf.  
-3. man -f keyword: Lookup the manual pages referenced by keyword and print out the short descriptions of any found. Equivalent to whatis keyword.  
-4. Using the *man man* command to check the manual page for *man* command.
+3. man -f keyword: Lookup the manual pages referenced by keyword and print out the short descriptions of any found. Equivalent to whatis keyword.
+4. Both the above commands give the list of all the man pages which match the required keyword or contain it along with a short description of those man pages.  
+5. Using the *man man* command to check the manual page for *man* command.
