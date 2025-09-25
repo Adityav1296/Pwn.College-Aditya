@@ -29,7 +29,7 @@ Read /challenge/read_me into the PWN environment variable, and we'll give you th
 - Then, using the *read* command, I read the contents of the read_me file as input to PWN variable.
 - After that I echoed the variable and used *cat* command on the file and this time they had the same content in them.
 
-```bash
+```
 hacker@variables~reading-files:~$ cd /challenge
 hacker@variables~reading-files:/challenge$ ls
 DESCRIPTION.md  read_me  run
