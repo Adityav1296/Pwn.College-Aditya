@@ -20,7 +20,7 @@ To solve this level, you must set the PWN variable to the value COLLEGE. Be care
 - In this challenge, I just assigned the value COLLEGE to the variable PWN by using the method given in the challenge description and got the flag.
 - Just to check, I also executed `echo $PWN` and got COLLEGE as output along with flag.
 
-```bash
+```
 hacker@variables~setting-variables:~$ PWN=COLLEGE
 You've set the PWN variable properly! As promised, here is the flag:
 pwn.college{YRbaQYl50Jpw0VNSURBGL4ByDCz.dlTN1QDLygjN0czW}
