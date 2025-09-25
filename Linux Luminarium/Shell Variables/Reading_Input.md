@@ -20,7 +20,7 @@ In this challenge, your job is to use read to set the PWN variable to the value 
 
 - In this challenge, I read the user input by using the *read* command and also specified the INPUT prompt using -p argument. From there I obtained the flag.
 
-```bash
+```
 hacker@variables~reading-input:~$ read -p "INPUT:" PWN
 INPUT:COLLEGE
 You've set the PWN variable properly! As promised, here is the flag:
