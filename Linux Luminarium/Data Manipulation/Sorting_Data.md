@@ -138,8 +138,7 @@ ovn.bokldge{AKsK0721czrSaFkh6bfVruaweGa.QXvQzM4EDLygiN0cyW}
 ### New Learnings
 1. *sort* command is used to sort the output of a file.
 2. By default, sort orders lines alphabetically. Arguments can change this:
-
-  1. -r: reverse order (Z to A)
-  2. -n: numeric sort (for numbers)
-  3. -u: unique lines only (remove duplicates)
-  4. -R: random order!
+    1. -r: reverse order (Z to A)
+    2. -n: numeric sort (for numbers)
+    3. -u: unique lines only (remove duplicates)
+    4. -R: random order!
