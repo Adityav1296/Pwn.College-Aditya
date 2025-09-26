@@ -12,7 +12,7 @@ This challenge's run needs you to suspend it, then resume it. Good luck!
 - In this challenge, I first ran the `/challenge/run` command to start the run process and then sent it to backgroung using Ctrl+Z.
 - Then I used `fg` command with the process name as its argument to bring it back to the foreground.
 
-```bash
+```
 hacker@processes~resuming-processes:~$ /challenge/run
 Let's practice resuming processes! Suspend me with Ctrl-Z, then resume me with
 the 'fg' command! Or just press Enter to quit me!
