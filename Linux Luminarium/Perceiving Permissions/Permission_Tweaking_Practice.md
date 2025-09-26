@@ -12,7 +12,7 @@ This challenge will ask you to change the permissions of the /challenge/pwn file
 - I first launched the challenge using the `/challenge/run` command and then from there onwards, I just followed the required conditions for the /challenge/pwn file and made the required changes to its permissions using the `chmod` command.
 - At the end of the 8th round, I was able to make changes to the permissions of the flag file to make it readable by the user and then used `cat` to read the flag.
 
-```bash
+```
 hacker@permissions~permission-tweaking-practice:~$ /challenge/run
 Round 1 of 8!
 
