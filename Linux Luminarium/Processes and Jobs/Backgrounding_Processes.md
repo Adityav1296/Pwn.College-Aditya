@@ -12,7 +12,7 @@ This level's run wants to see another copy of itself running, not suspended, and
 - In this challenge, I first ran the `/challenge/run` command to start the run process and then sent it to backgroung using Ctrl+Z.
 - Then I used `bg` command with the process name as its argument to resume it in the background.
 
-```bash
+```
 hacker@processes~backgrounding-processes:~$ /challenge/run
 I'll only give you the flag if there's already another copy of me running *and
 not suspended* in this terminal... Let's check!
