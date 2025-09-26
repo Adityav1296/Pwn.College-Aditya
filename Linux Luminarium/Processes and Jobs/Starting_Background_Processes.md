@@ -24,7 +24,7 @@ Launch /challenge/run backgrounded for the flag!
 
 - In this challenge, I simply ran the `/challenge/run` command but since we need to run it in the background from the start, I added '&' at the end of the command as told in the challenge descriptiton. 
 
-```bash
+```
 hacker@processes~starting-backgrounded-processes:~$ /challenge/run &
 [1] 138
 hacker@processes~starting-backgrounded-processes:~$
