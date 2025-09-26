@@ -11,7 +11,7 @@ This level's run wants to see another copy of itself running and using the same 
 
 - In this challenge, I simply ran the `/challenge/run` command once and then sent it to background using Ctrl+Z. Then I reran the same command and got the flag.
 
-```bash
+```
 hacker@processes~suspending-processes:~$ /challenge/run
 I'll only give you the flag if there's already another copy of me running in
 this terminal... Let's check!
