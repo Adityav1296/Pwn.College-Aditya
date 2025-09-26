@@ -13,7 +13,7 @@ Foreground a running background process.
 - Then I used `bg` command with the process name as its argument to resume it in the background.
 - To bring it to the foreground again, I used the `fg` command with the process name as its argument. Once it came to the foreground, I obtained the flag.
 
-```bash
+```
 hacker@processes~foregrounding-processes:~$ /challenge/run
 To pass this level, you need to suspend me, resume the suspended process in the
 background, and *then* foreground it without re-suspending it! You can
