@@ -25,7 +25,7 @@ This level extends the previous level by requesting more radical permission chan
 - I launched the challenge using the `/challenge/run` command and then followed the steps to change the permissions of the /challenge/pwn file as required. After round 8, I was able to change the permissions of the flag file. 
 - So I made it readable and the used `cat` to read the flag.
 
-```bash
+```
 hacker@permissions~permissions-setting-practice:~$ /challenge/run
 Round 1 of 8!
 
