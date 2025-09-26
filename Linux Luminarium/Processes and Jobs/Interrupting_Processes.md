@@ -11,7 +11,7 @@ Sometimes you just want to get rid of the process that's clogging up your termin
 
 - In this challenge, I simply ran the `/challenge/run` command and then used Ctrl+C to interrupt it and get the flag.
 
-```bash
+```
 hacker@processes~interrupting-processes:~$ /challenge/run
 I could give you the flag... but I won't, until this process exits. Remember,
 you can force me to exit with Ctrl-C. Try it now!
