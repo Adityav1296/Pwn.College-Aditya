@@ -18,7 +18,7 @@ How can you solve this? You know that rm is searched for in the directories list
 - Then after multiple trial and errors, it clicked in my mind that it is executing the rm file. So just for checking, I identified the location of the rm file and then deleted it from the PATH. I repeated this process again a couple of times and it became clear that the `rm` file from the first available location was going to get executed.
 - So I moved the win file to the rm file. Then added the `/home/hacker` path to the PATH variable. Then I again ran the `/challenge/run` command. This time I finally got the flag.
 
-```bash
+```
 hacker@path~adding-commands:~$ touch win
 hacker@path~adding-commands:~$ ls -l win
 -rw-r--r-- 1 hacker hacker 0 Sep 27 11:01 win
