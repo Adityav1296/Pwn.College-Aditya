@@ -1,0 +1,1 @@
+n the piping module, you've explored the concept of using several commands, with data flowing between them via pipes, to accomplish something slightly more complex than the individual commands can do. Of course, this concept also applies independent of the data transfer: sometimes, you might want to run several commands in quick succession to achieve some cumulative effect.
