@@ -19,7 +19,7 @@ Attach to the session with screen -r, then use one of the key combinations above
 - From there, I reattached to the challenge_sesssion to start the challenge.
 - It opened up in window 1 instead of 0 and asked to change the window to 0. So, I used Ctrl+A 0 to change to window 0 and got the flag.
 
-```bash
+```
 hacker@terminal-multiplexing~switching-windows:~$ screen -ls
 There are screens on:
         144.session_a62e554d09ec3a92    (Remote or dead)
