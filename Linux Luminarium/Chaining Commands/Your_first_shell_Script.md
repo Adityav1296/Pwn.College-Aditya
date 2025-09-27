@@ -30,7 +30,7 @@ Run /challenge/pwn and then /challenge/college, but this time in a shell script 
 - Then I used the `nano x.sh` command to open the file and write the commands to be executed in it. 
 - Finally at the end, I used the `bash` command with the file as its argument to execute the script and get the flag.
 
-```bash
+```
 hacker@chaining~your-first-shell-script:~$ touch x.sh
 hacker@chaining~your-first-shell-script:~$ ls -l x.sh
 -rw-r--r-- 1 hacker hacker 0 Sep 26 16:59 x.sh
