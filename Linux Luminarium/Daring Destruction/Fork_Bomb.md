@@ -19,7 +19,7 @@ This challenge contains a /challenge/check that'll try to determine if your fork
 
 - I launched the `/challenge/check` command in the terminal. Then opened another terminal and there I made a script 'x' and lauched it. After the system was overwhelmed, I got the flag.
 
-```bash
+```
 hacker@destruction~the-fork-bomb:~$ /challenge/check
 It looks like the system can still spawn processes. We'll check again in 5 seconds...
 You successfully saturated the process table.  Here is your hard-earned flag:
