@@ -13,7 +13,7 @@ This level has a command that starts with pwncollege, and it'll give you the fla
 
 -> In this challenge, I straightaway started by typing pwn and then using tab to auto-complete. I first wanted to check if there were other files that started with pwn. On the first try, since tab did not auto-complete the command, I pressed tab again to get the multiple options available.  
 -> The pwncollege command was one of the options listed. So I just typed out the name of the command to get the flag.  
--> I also tried it by using tab to auto-complete. I typed 'pwncollege' before using tab this time. This was, the word I typed was already unique among the options available and tab auto-completed it on its own. 
+-> I also tried it by using tab to auto-complete. I typed 'pwncollege' before using tab this time. This time, the word I typed was already unique among the options available and tab auto-completed it on its own. 
 
 ```bash
 hacker@globbing~tab-completion-on-commands:~$ pwn
