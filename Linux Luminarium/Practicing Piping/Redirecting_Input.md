@@ -18,7 +18,7 @@ In this level, we will practice using /challenge/run, which will require you to 
 **Flag:** `pwn.college{IUgR5UGwwOE6cV02gddlvUpjHk0.dBzN1QDLygjN0czW}`
 
 - In this challenge, I echoed the word COLLEGE to the PWN file using the *echo* command. Then I also used *ls* to list out the contents of the home directory.
-- Then firstly I directly ran the `/challenge/run` command and redirected the input of PWN file to it using the '<' character.
+- Then I directly ran the `/challenge/run` command and redirected the input of PWN file to it using the '<' character.
 
 ```bash
 hacker@piping~redirecting-input:~$ echo COLLEGE > PWN
@@ -42,4 +42,4 @@ pwn.college{IUgR5UGwwOE6cV02gddlvUpjHk0.dBzN1QDLygjN0czW}
 ### New Learnings
 1. Inputs to a file can be redirected as well using the '<' character.
 2. However, the input can only be redirected to a command that reads them out. That means the contents of the source file are fed to the stdin of the command. Therefore input redirection always requires a command on the left side to receive the input. Example :
-  1. `cat < file.txt` is the same as `cat file.txt`
+    1. `cat < file.txt` is the same as `cat file.txt`
