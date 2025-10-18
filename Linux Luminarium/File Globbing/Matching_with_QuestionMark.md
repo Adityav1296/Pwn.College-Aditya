@@ -33,5 +33,5 @@ pwn.college{sdlxHqrj9l72fsaYWI7nH4lEaCA.dJjM4QDLygjN0czW}
 ### New Learnings
 1. The ? symbol can replace any of the characters in the file name. As a result, the shell tries to replace the ? symbol with any files that match the pattern given before or after it.  
 2. Similar to using *, by using ? we can search up multiple files having the same pattern by a single command rather than searching them one by one.  
-3. We can also use * symbol to perform its function with the directories as well, just like how we did in this challenge.  
+3. We can also use ? symbol to perform its function with the directories as well, just like how we did in this challenge.  
 4. The only difference between * and ? here is that ? can only replace one character while * can also be used to replace a bunch of characters in the file or directory name. As a result, the ? is used when we need strict position control and want to match only a fixed number of characters. Otherwise we can use * for flexibility.
