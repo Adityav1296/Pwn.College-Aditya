@@ -54,6 +54,3 @@ pwn.college{AXdMDHxYj7gZodGEdUiPJInfWK_.dBTN1QDLygjN0czW}
    Suppose we are in the /home/student/projects directory and the we type ../challenge/run command, then the path will become /home/student/challenge/run for executing the run file.  
    However, the working directory still remains the same i.e /home/student/projects unless we explicitly change the directory.  
 3. If we are in the root directory, then both '.' and '..' will behave the same since root doesn't have any parent directory above it.  
-
-### References
-1. Chatgpt for understanding the difference between '.' and '..' and how they behave when the parent directory is root.
