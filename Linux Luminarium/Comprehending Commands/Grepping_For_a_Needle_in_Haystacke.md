@@ -43,13 +43,8 @@ pwn.college{8VxLjaUtYXxbwLxzM9i3RCzv5n7.ddTM4QDLygjN0czW}
    ```bash
    hacker@commands~grepping-for-a-needle-in-a-haystack:~$ grep -n "pwn.college" /challenge/data.txt
    80270:pwn.college{8VxLjaUtYXxbwLxzM9i3RCzv5n7.ddTM4QDLygjN0czW}
-   hacker@commands~grepping-for-a-needle-in-a-haystack:~$ grep -o "pwn.college"
-   /challenge/data.txt
+   hacker@commands~grepping-for-a-needle-in-a-haystack:~$ grep -o "pwn.college" /challenge/data.txt
    pwn.college
-   hacker@commands~grepping-for-a-needle-in-a-haystack:~$ grep -c "pwn.college"
-   /challenge/data.txt
+   hacker@commands~grepping-for-a-needle-in-a-haystack:~$ grep -c "pwn.college" /challenge/data.txt
    1
    ```
-
-### References 
-1. Chatgpt for additional grep commands.
