@@ -34,8 +34,10 @@ hacker@variables~reading-files:~$ cd /challenge
 hacker@variables~reading-files:/challenge$ ls
 DESCRIPTION.md  read_me  run
 hacker@variables~reading-files:/challenge$ cat read_me
-GpzpSmtQrKwNAA7W3t4QTzPmkz2diK6kleiwzwLKh6hXhacker@variables~reading-files:/challenge$ cat read_me
-kIUvDG2DXsHph6M1t7M62nOPvne4SY0uSgExn8xbTquivYpNUL4Lyhacker@variables~reading-files:/challenge$ read PWN < read_me
+GpzpSmtQrKwNAA7W3t4QTzPmkz2diK6kleiwzwLKh6hX
+hacker@variables~reading-files:/challenge$ cat read_me
+kIUvDG2DXsHph6M1t7M62nOPvne4SY0uSgExn8xbTquivYpNUL4Ly
+hacker@variables~reading-files:/challenge$ read PWN < read_me
 You've set the PWN variable properly! As promised, here is the flag:
 pwn.college{wXvRzcWF5raXWGaHa4ughOW8KrC.dBjM4QDLygjN0czW}
 hacker@variables~reading-files:/challenge$ echo $PWN
