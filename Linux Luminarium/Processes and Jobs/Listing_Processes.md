@@ -61,5 +61,5 @@ Now I will sleep for a while (so that you could find me with 'ps').
 1. `ps` command is used to list out all the process running in the shell at a time.
 2. It can be ran in two formats :
     1. `ps -ef` 
-    2. `ps aux`
+    2. `ps aux`  
 Both the ways list out basic info about the processes like user, process ID, start time, total time taken and process name, etc.
