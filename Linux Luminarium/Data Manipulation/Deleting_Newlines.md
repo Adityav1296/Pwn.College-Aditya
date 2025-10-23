@@ -10,7 +10,7 @@ world!
 hacker@dojo:~$
 ```
 
-Here, the backslash (\) signifies that the character that follows it is a standin for a character that's hard to input into the shell normally. The newline, of course, is hard to input because when you typically hit Enter, you'll run the command itself. \n is a standin for this newline, and it must be in quotes to prevent the shell interpreter itself from trying to interpret it and pass it to tr instead.
+Here, the backslash signifies that the character that follows it is a standin for a character that's hard to input into the shell normally. The newline, of course, is hard to input because when you typically hit Enter, you'll run the command itself. \n is a standin for this newline, and it must be in quotes to prevent the shell interpreter itself from trying to interpret it and pass it to tr instead.
 
 ### Objective
 In this challenge, we'll inject a bunch of newlines into the flag. Delete them with tr's -d flag and the escaped newline specification!
@@ -26,7 +26,7 @@ Your line-split flag: pwn.college{A1UySWGZS4pWCtdTtiv2QVxFWpi.QX1ETM3EDLygjN0czW
 ```
 
 ### New Learnings
-1. The '\' character is called the escape character.
+1. The backslash character is called the escape character.
 2. When using special characters with the *tr* command, it is necessary to specify them in `'character'` to prevent any unintended action by the shell to take place.
 
 ### References 
