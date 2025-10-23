@@ -31,8 +31,8 @@ pwn.college{oEbz2V2S0WsTG0IjWVOwZF0Q2zS.QX0ETM3EDLygjN0czW}
 
 ### New Learnings
 1. *tr -d* command is used for deleting the characters specified to it as argument. We can give arguement to it in two ways :
-  1. Directly pass the characters to be deleted.
-  2. Enclose the characters to be deleted in ' '. This is a more secure way of passing the arguments to delete.
+    1. Directly pass the characters to be deleted.
+    2. Enclose the characters to be deleted in ' '. This is a more secure way of passing the arguments to delete.
 
 ### References 
 1. [GeeksforGeeks : tr command in Unix/Linux with examples](https://www.geeksforgeeks.org/linux-unix/tr-command-in-unix-linux-with-examples/)
