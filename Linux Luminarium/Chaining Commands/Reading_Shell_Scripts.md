@@ -47,6 +47,3 @@ pwn.college{krKeUTvWlZZ-VraAU9C1Mo7cPmj.QXyADO4EDLygjN0czW}
 ```
 
 The script will wait for us to type in the value for the variable taking input from the stdin.
-
-### References
-1. Chatgpt to understand what the 'read' line was doing in the script and how it was affecting it. 
